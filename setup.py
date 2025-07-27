@@ -15,6 +15,8 @@ def get_requirements()->List[str]:
 setup(
     name="time_series",
     version="0.0.1",
+    author="AMIR ANSARY",
+    author_email="ansaryamir7@gmail.com",
     packages = find_packages(),
     install_requires=get_requirements(),
 )
